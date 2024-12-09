@@ -11341,7 +11341,7 @@ msgid "When enabled, the receiver will select an AC3 track (when available)."
 msgstr "AC3-Tonspur verwenden (falls vorhanden)."
 
 msgid "When enabled, the receiver will select an AC3+ track (when available)."
-msgstr AC3+-Tonspur verwenden (falls vorhanden)."
+msgstr "AC3+-Tonspur verwenden (falls vorhanden)."
 
 msgid "When enabled, then when changing bouquets, set the cursor on the service from the channel history in the channel selection list."
 msgstr "Der Cursor bei Bouquetwechsel zeigt auf den letzten Kanal, der in diesem Bouquet laut Verlauf angesehen wurde."
