@@ -64,7 +64,7 @@ class HdmiCECSetupScreen(ConfigListScreen, Screen):
 			self.list.append((_("Detect other boxes before standby"), config.hdmicec.next_boxes_detect, _("Before sending the command to switch the TV to standby, the receiver tests if all the other devices plugged to TV are in standby. If they are not, the 'sourceinactive' command will be sent to the TV instead of the 'standby' command.")))
 			if config.hdmicec.next_boxes_detect.value:
 				for i in range(len(config.hdmicec.ethbox)):
-					self.list.append((8*" " + _("Detect box%s via network") % (i + 1), config.hdmicec.ethbox[i].used, _("For this box, detection via the network can also be used for detection.")))
+					self.list.append((8*" " + _("Detect box%s via network") % (i + 1), config.hdmicec.ethbox[i].used, _("For this box, the network connection can also be used for detection.")))
 					if config.hdmicec.ethbox[i].used.value:
 						self.list.append((16*" " + _("IP"), config.hdmicec.ethbox[i].ip, _("OpenWebif is used for detection on box with this IP address.")))
 						self.list.append((16*" " + _("port"), config.hdmicec.ethbox[i].port, _("Port used by OpenWebif on tested box.")))
